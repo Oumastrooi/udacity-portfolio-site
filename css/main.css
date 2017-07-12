@@ -1,0 +1,89 @@
+body,
+article,
+header,
+footer,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    font-family: "proxima-nova", arial, helvetica, sans-serif;
+}
+
+header{
+    border-bottom: thick solid dimgray;
+}
+
+h1{
+    font-size: 2.5em;
+}
+h2{
+    color: dimgray;
+}
+h3{
+    text-align: center;
+}
+h4{
+    font-size: 1.5em;
+}
+
+.hero{
+    max-width: 90%;
+    padding: 1em 0 1.2em 0;
+
+}
+
+.logo{
+    max-width: 20%;
+}
+
+.right{
+    text-align: right;
+}
+
+.project{
+    overflow: hidden;
+    max-width: 100%;
+}
+
+footer{
+    border-top: thick solid dimgray;
+    height: 100px;
+}
+ul{
+    list-style: none;
+}
+
+
+/*Nexus*/
+@media screen and (max-width: 412px) {
+    h1{
+        font-size: 1em;
+    }
+    h4{
+        font-size: .75em;
+    }
+    .logo{
+        max-width: 80%;
+    }
+
+}
+
+/*Ipad*/
+@media screen and (min-width: 413px) and (max-width: 1024px) {
+    h1{
+        font-size: 2em;
+    }
+    h4{
+        font-size: 1.1em;
+    }
+    .logo{
+        max-width: 50%;
+    }
+    .hero{
+        max-width: 100%;
+    }
+}
